@@ -1,0 +1,12 @@
+{% assign math = page.math | default: layout.math | default: site.math %}
+
+{% case math %}
+  {% when "mathjax" %}
+    {% include mathjax.html %}
+{% endcase %}
+
+{% if site.is_draft %}
+<div class="banner bg-yellow-100">
+  <h2 class="fw-300">{{ site.draft_banner }}</h2>
+</div>
+{% endif %}

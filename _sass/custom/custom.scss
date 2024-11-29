@@ -1,0 +1,155 @@
+// Just the Class dependencies
+@import 'card';
+
+// Just the Class styles
+@import 'announcement';
+@import 'module';
+@import 'schedule';
+@import 'staffer';
+
+// Overrides
+code {
+  font-size: 14px;
+  padding: 0.2em 0.4em;
+  border: none;
+}
+
+iframe {
+  max-width: 100%;
+}
+
+details {
+  @extend .mb-4;
+}
+
+summary {
+  @extend .btn, .btn-outline;
+
+  width: 100%;
+}
+
+.main-content-wrap {
+  max-width: $content-width;
+  margin: auto;
+}
+
+.main-content {
+  dl {
+    display: block;
+    grid-template-columns: none;
+  }
+
+  dt {
+    font-weight: 700;
+    text-align: start;
+
+    &::after {
+      content: normal;
+    }
+  }
+
+  dd {
+    font-weight: normal;
+
+    +dt {
+      margin-top: 1em;
+    }
+  }
+}
+
+/* Styles for the banner */
+div.banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+div.banner>h2 {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+/* End banner styles */
+
+// Define our colors
+$nav-button-color: #00A6D6;
+$hyperlink-color: #0076C2;
+
+// Navigation bar, header links, and top-right auxiliary links
+.site-nav,
+.site-header,
+.site-footer,
+.aux-nav {
+  a {
+    color: $nav-button-color;
+    text-decoration: none;
+    
+    &:hover,
+    &:focus {
+      color: darken($nav-button-color, 10%);
+    }
+  }
+}
+
+// Main content hyperlink color
+.main-content {
+  a:not(.btn) {
+    color: $hyperlink-color;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    font-weight: bold;
+
+    &:hover,
+    &:focus {
+      color: darken($hyperlink-color, 15%);
+      background-color: rgba($hyperlink-color, 0.1);
+      
+    }
+  }
+}
+
+// Button styles (unchanged)
+.btn {
+  background-color: $nav-button-color;
+  color: white;
+  border-color: $nav-button-color;
+  text-decoration: none;
+  
+  &:hover,
+  &:focus {
+    background-color: darken($nav-button-color, 10%);
+    border-color: darken($nav-button-color, 10%);
+    color: white;
+  }
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: $nav-button-color;
+  border-color: $nav-button-color;
+  
+  &:hover,
+  &:focus {
+    background-color: $nav-button-color;
+    color: white;
+  }
+}
+
+// Increase size of the logo
+.site-title {
+  font-size: 2rem !important;
+  
+  img {
+    height: 70px !important;
+    width: auto !important;
+    max-width: none !important;
+  }
+}
+
+// Increase size of top right navigation links
+.aux-nav {
+  a {
+    font-size: 1.1rem;  // Increase font size
+    padding: 0.5rem 0.75rem;  // Add some padding for better clickability
+  }
+}

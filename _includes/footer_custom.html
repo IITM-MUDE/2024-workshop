@@ -1,0 +1,27 @@
+<style>
+  .footer-logo {
+    display: flex;
+    align-items: center;
+  }
+  .footer-logo img.tu-delft {
+    height: 30px;
+    width: auto;
+  }
+  .footer-logo img.mude {
+    height: 35px;
+    width: auto;
+    margin-left: 15px;
+  }
+  .footer-text {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+</style>
+
+<div class="footer-logo">
+  <img class="tu-delft" src="{{ site.footer_logo | relative_url }}" alt="TU Delft Logo">
+  <img class="mude" src="{{ site.logo | relative_url }}" alt="MUDE Logo">
+</div>
+<div class="footer-text">
+  The MUDE Team &copy; 2024 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
+</div>
