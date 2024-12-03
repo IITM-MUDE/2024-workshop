@@ -36,9 +36,9 @@ heading_anchors: true
 permalink: pretty
 aux_links:
   Textbook:
-    - 'https://iitm-mude.github.io/workshop-iitm-book/'
+    - 'https://iitm-mude.github.io/2024-workshop-book/'
   Files:
-    - 'https://iitm-mude.github.io/workshop-iitm-files/students/'
+    - 'https://iitm-mude.github.io/2024-workshop-files/students/'
 aux_links_new_tab: true
 
 # Collections for website data
