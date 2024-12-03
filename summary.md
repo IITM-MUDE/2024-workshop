@@ -27,8 +27,10 @@ GitHub is also a great place to collaborate!
 - If you are interested in **books**  in particular and would like to contribute, request a feature or complain about something visit the TeachBooks GitHub Organization at [github.com/TeachBooks](https://github.com/TeachBooks){:target="_blank"} (read the introduction; some of our key repositories are also described below).
 - Use pull requests, discussions, issues and don't hesitate to tag Robert in your comments (`@rlanzafame`); however, note that response time is slower than via email.
 
+## Table of contents
+{: .no_toc .text-delta }
 
-## Table of Contents
+1. TOC
 {:toc}
 
 ---
