@@ -10,6 +10,8 @@ description: An overview of the workshop for participants.
 
 _View this page as a_ **Participant**{: .label .label-red }
 
+**Note:** _the actual workshop sessions differed from those illustrated here, but still followed the general perspectives illustrated at the top._
+
 Below you can find an outline of the workshop sessions, along with a brief description of each day, each of which has a specific perspective to keep the sessions focused and allow the participants to first observe what is done at TU Delft and eventually translate that to a plan for what could be done at IIT Madras.
 
 {: .note }
