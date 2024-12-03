@@ -15,9 +15,10 @@ The workshop took place on the beautiful IIT Madras campus on November 27-29. Al
 
 On Day 1 you were students; Day 2 your were teachers and Day 3 you did a great job working on books. A **lot** of material was covered, so our hope is that this page and the associated materials help you get started on your journey towards education innovation, wherever that may lead you!
 
-![participant photo, end of workshop]([../assets/figures/week.png](https://github.com/IITM-MUDE/2024-workshop-files/raw/main/src/teachers/DSC_0219.JPG)){:width="500px"}
+![participant photo, end of workshop](https://github.com/IITM-MUDE/2024-workshop-files/raw/main/src/teachers/DSC_0219.JPG){:width="500px"}
 
-## How to stay in touch
+### How to stay in touch
+{:.no_toc}
 
 Participants can contact Robert directly via email.
 
@@ -258,16 +259,18 @@ It is a lot of material, but it is designed to give everyone a perspective on wh
 First, we would appreciate a bit of background information via this survey: `<survey closed>`
 
 Then, the idea is that participants do as much of the following as possible:
+
 1.	Read the course website
 2.	Read the online textbook (1 theory chapter + 1 programming chapter)
 3.	Install the software (miniconda, Visual Studio Code)
 4.	Access and complete the Programming Assignment (PA1) 
 
 The process should be-self explanatory by pretending to be a student and visiting the workshop website:
-•	[https://iitm-mude.github.io/2024-workshop/](https://iitm-mude.github.io/2024-workshop/){:target="_blank"}
-•	The website is set up to be as close as possible to a “real” course website
-•	The outline of the workshop is included on this page 
-•	All of the websites 
+
+- [https://iitm-mude.github.io/2024-workshop/](https://iitm-mude.github.io/2024-workshop/){:target="_blank"}
+- The website is set up to be as close as possible to a “real” course website
+- The outline of the workshop is included on this page 
+- All of the websites 
 
 Note that we did our best to make this work as a “real” first course in MUDE, but this didn’t work perfectly. For example, the book chapters may contain MUDE-specific text, a few broken links, and some skills needed by participants may not be introduced (for example, Python/Conda environments, Git, etc.). Hopefully this is not too distracting for participants. In any case, so don’t hesitate to have participants contact us directly.
 
