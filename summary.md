@@ -37,7 +37,7 @@ GitHub is also a great place to collaborate!
 
 ## Overview of Activities
 
-The activities and scope of each day are described below. The slides are provided as PDF files via the Files page [here](https://iitm-mude.github.io/2024-workshop-files/students/Workshop-Slides/){:target="_blank"}. Note that they are numbered in order presented; slide 02A was never presented directly, but contains some material about programming that came up frequently in workshop discussions.
+The activities and scope of each day are described below. The slides are provided as PDF files via the Files page [here](https://iitm-mude.github.io/2024-workshop-files/students/Workshop-Slides/){:target="_blank"}. Note that they are numbered in order presented; slide 02B was never presented directly, but contains some material about programming that came up frequently in workshop discussions.
 
 ### Day 0: Preparation Materials
 
@@ -77,9 +77,9 @@ Activities:
 - Lecture: MUDE Assessment (Sandra Verhagen). Slides: 05B.
 - Closing
 
-On the last day, all participants were added to a GitHub Organization called "IITM-MUDE" ([github.com/IITM-MUDE](https://github.com/IITM-MUDE){:target="_blank"}. The three key websites used in the workshop were set up here for future reference (as well as experimentation!). Participants are all made owners of this organization, so feel free to add new repositories or modify the existing one, especially if you would like to reach out for help from the TU Delft instructors. 
+On the last day, all participants were added to a GitHub Organization called "IITM-MUDE" ([github.com/IITM-MUDE](https://github.com/IITM-MUDE){:target="_blank"}). The three key websites used in the workshop were set up here for future reference (as well as experimentation!). Participants are all made owners of this organization, so feel free to add new repositories or modify the existing one, especially if you would like to reach out for help from the TU Delft instructors. 
 
-## Summary of Selevted Workshop Activities
+## Summary of Selected Workshop Activities
 
 ### Wednesday
 
@@ -90,9 +90,11 @@ During the MUDE Introduction lecture there were several discussions and question
 - Can we randomize things in the notebook? Yes! You can do this using typical Python libraries (e.g., `random` or `numpy.random`). You could also combine this with Sympy.
 - Is there a symbolic math library in Python? Yes, it is called Sympy. Check out the [Sympy website](https://www.sympy.org/en/index.html){:target="_blank"} for more information. Here is an [example interactive page introducing Sympy](https://teachbooks.io/learn-python/08/sympy.html){:target="_blank"}. Maybe you could also combine this with the [answer checking button](https://teachbooks.io/manual/features/exercise_checking.html){:target="_blank"} (note that this is currently being converted to a dedicated package, see [this TeachBooks project](https://github.com/orgs/TeachBooks/projects/54){:target="_blank"}).
 - How to reinforce/teach fundamental programming concepts? This really depends on the pre-knowledge and experience of students. One thing is for sure: it is ineffective to give high level instructions (e.g., "do analysis in Python") and assuming a BSc course has covered it. We try to: a) mix activities (e.g., consider reading code, writing pseudo-code, pair programming, peer review, the rubber duck method, etc.), and b) provide background material (e.g., see the Learn Python and Learn Programming materials in the Resources section, which are meant to be easy to include as links to the students). Consider also using pre-checks per week or per assignment to help the students identify whether they are at the appropriate level. We all agreed that repetition is effective when it comes to programming concepts. Finally, while your initial work may focus on an individual course, many of the programming challenges are probably best tackled across the curriculum; ideally follow-on courses continue to build on the programming concepts covered in your courses. This is what we would like to do in the future for MUDE as well.
+- Regarding the time commitment of the course, the quarter format of the TU Delft courses makes it that the students usually see just another course (maybe two, maximum three other courses). This makes it possible to schedule multiple sessions during the week. In a semester format, this can be adapted with shorter slots more spread over time.
+- How much time does a topic take in the MUDE? Usually one or two weeks. This is particular to MUDE, another course could be designed in a way that each topic takes multiple weeks, especially considering a semester format.
 
 The following was noted regarding the material that was sent as homework:
-- Computers/environment page in the book was appreciated
+- Computers/environment page in the book was appreciated (It is worth mentioning that this page was added in the third iteration of the course, it shows the value of implementing feedback on the course!)
 - Regarding the narrative of the assignment: storytelling style on notebooks (PA1) is fine, but can see advantages of another approach such as introducing the theory/big picture first, then move on to more independent exercises
 - Python warmup page was effective for helping non-Python users with prior programming experience get familiar with the language. This type of page is very easy to set up in a TeachBook.
 
@@ -104,18 +106,23 @@ Several small groups were asked to comment on WS1; these are collected into them
 
 **Too far too fast**
 - The level of our CE students can be lower when it comes to programming, so care should be taken to provide support and pre-requisite knowledge; conversely, care should be taken to make assignment at the appropriate level
+- Each course can cover basic concepts and then build bridge activities to make a smoother jump towards more complex activities. For example, asking to peer review code, do pair programming, read/write pseudocode.
 - Very easy to make the programming part too complex; structure can help with this, though
 
 **The notebook is very structured; perhaps it is too structured.**
-- Perhaps this prevents students from learning to be independent programmers
+- Perhaps this prevents students from learning to be independent programmers.
 - the structure would make it much easier and faster to grade/assess the assignments (as a teacher)
 - The structure makes it easier to review (as a student)
 - There is a lot of text to read; could lead to losing track of the primary instructions
+- The choice of how much structure to add depends on what the students require. Courses in the early stages of their studies could need a more structured approach, and advanced courses could rely more on student's autonomy.
+- The focus of the course is on the contents but it greatly uses programming as a tool for teaching the concepts.
+- The different features of the book (HTML, executable Python, symbolic notation, visualization, videos, etc.) allows for having great flexibility in the materials that can be covered and explained with the teachbooks. You can use the help of TAs for developing and testing all these materials, usually TAs are very skilled and contribute with their own perspective of the course.
 
 **Motivation of students**
-- It is clear that the teachers pu a lot of work into the assignment, which motivates the reader/student to learn
-- functions can be modified easily, so it is easier to experiment
+- It is clear that the teachers put a lot of work into the assignment, which motivates the reader/student to learn. Having said that, teachers don't need to be overly ambitious at the beginning, and can start gradually including tools into their courses.
+- functions can be modified easily, so it is easier to experiment. It also provides confidence to the student that they can directly interact with the concepts.
 - although the focus may be on the mathematics, the format of the notebook makes it easier to learn Python as a "bonus"
+- How to avoid malpractices? This can be difficult, and there are always cases of students trying to hack the systems. We try to encourage participants to do the activities and they see the value provided by them. The format (and the fun of them) are perceived by the students as worth doing. 
 
 ## Reusing material
 
@@ -129,7 +136,7 @@ In the mean time, if you want to use MUDE material, some recommendations are pro
 
 ### MUDE Book
 
-- Get the source code from the GitHub Repository [github.com/TeachBooks/mirror_mude_book](https://github.com/TeachBooks/mirror_mude_book/) (the `release` branch is the "final" version that the students see). This is a mirror of the source repository for the MUDE book, which is part of the TU Delft Git**Lab**, which is not yet public. Once the respotory is made public the source code can be found at [gitlab.tudelft.nl/mude/book](https://gitlab.tudelft.nl/mude/book){:target="_blank"}.
+- Get the source code from the GitHub Repository [github.com/TeachBooks/mirror_mude_book](https://github.com/TeachBooks/mirror_mude_book/) (the `release` branch is the "final" version that the students see). This is a mirror of the source repository for the MUDE book, which is part of the TU Delft Git**Lab**, which is not yet public. Once the repository is made public the source code can be found at [gitlab.tudelft.nl/mude/book](https://gitlab.tudelft.nl/mude/book){:target="_blank"}.
 - Make any changes to the source code as needed for your book
 - Note the source on the specific book, chapter or page, depending on the level of detail you want to provide.
 - We recommend you include a credits page that describes all your sources (and you can also describe how you want others to reference your work). It would also be useful to describe modifications made to the source material so that others can understand how you have adapted the material (this should also be useful for you in the future as well!).
@@ -182,7 +189,7 @@ We only scratched the surface in our workshop: there is a huge potential to cust
 
 Remember, the key technology is the Python package Jupyter Book. Check out their [documentation](https://jupyterbook.org/){:target="_blank"} if you have not done so already; the [MyST syntax cheatsheet](https://jupyterbook.org/en/stable/reference/cheatsheet.html){:target="_blank"} is very useful for looking up syntax when editing the book.
 
-Our initiative **TeachBooks** young (March, 2024) and still defining itself. At the moment it is several things:
+Our initiative **TeachBooks** is young (March, 2024) and still defining itself. At the moment it is several things:
 - a group of people focused on using Jupyter Books in an educational setting
 - a collection of software and example books on [github.com/teachbooks](https://github.com/teachbooks){:target="_blank"} (a GitHub _Organization_)
 - always open for collaboration! visit our [github organization](https://github.com/teachBooks/){:target="_blank"} or our website [teachbooks.io](https://teachbooks.io) to learn more
