@@ -15,7 +15,14 @@ The workshop took place on the beautiful IIT Madras campus on November 27-29. Al
 
 On Day 1 you were students; Day 2 your were teachers and Day 3 you did a great job working on books. A **lot** of material was covered, so our hope is that this page and the associated materials help you get started on your journey towards education innovation, wherever that may lead you!
 
-![participant photo, end of workshop](https://github.com/IITM-MUDE/2024-workshop-files/raw/main/src/teachers/DSC_0219.JPG){:width="500px"}
+## Next Steps
+
+The workshop and this page covers a _lot_ of material. Here are a few tips to help you with your next steps:
+
+1.	Choose the resource that you want to implement in your course. Possibly a Teachbook!
+2.	Start small and build from there. Revisit the materials in this page, add some content to your course, and test it with your students.
+3.	Gather feedback, add and improve your materials.
+4.	Stay in touch! We'll be delighted to know what you are working on and how we can help.
 
 ### How to stay in touch
 {:.no_toc}
@@ -26,6 +33,8 @@ GitHub is also a great place to collaborate!
 - The GitHub Organization [github.com/IITM-MUDE](https://github.com/IITM-MUDE){:target="_blank"} could be a place to use as a "sandbox" and help each other.
 - If you are interested in **books**  in particular and would like to contribute, request a feature or complain about something visit the TeachBooks GitHub Organization at [github.com/TeachBooks](https://github.com/TeachBooks){:target="_blank"} (read the introduction; some of our key repositories are also described below).
 - Use pull requests, discussions, issues and don't hesitate to tag Robert in your comments (`@rlanzafame`); however, note that response time is slower than via email.
+
+![participant photo, end of workshop](https://github.com/IITM-MUDE/2024-workshop-files/raw/main/src/teachers/DSC_0219.JPG){:width="400px"}
 
 ## Table of contents
 {: .no_toc .text-delta }
