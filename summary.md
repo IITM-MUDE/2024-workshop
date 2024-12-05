@@ -154,14 +154,14 @@ Until the MUDE book is fully open, a note on a page/chapter could look like this
 > This page/chapter uses material from the MUDE book [mude.citg.tudelft.nl/book](https://mude.citg.tudelft.nl/book){:target="_blank"}, accessed on `<date>`. `<add citation or link to credits page of book>`.
 
 The reference is:
-> Lanzafame, R., van Woudenberg, T., Verhagen, S. (2024) Modelling, Uncertainty and Data for Engineers (MUDE) Textbook, Delft University of Technology. [Unpublished online textbook]. [mude.citg.tudelft.nl/book](https://mude.citg.tudelft.nl/book){:target="_blank"}.
+> Lanzafame, R., van Woudenberg, T., Verhagen, S. (2024) Modelling, Uncertainty and Data for Engineers (MUDE) Textbook, Delft University of Technology. [mude.citg.tudelft.nl/book](https://mude.citg.tudelft.nl/book){:target="_blank"}.
 
 Once the MUDE book is fully open, the book itself will include instructions for referring to and reusing content.
 
 Here are some examples:
 - This book has an editor for the entire book, with individual authors noted for each chapter when it deviates from the editor. It is summarized on [this credits page](https://interactivetextbooks.citg.tudelft.nl/risk-reliability/credits.html){:target="_blank"}; [here is an example](https://interactivetextbooks.citg.tudelft.nl/risk-reliability/risk-analysis/overview.html){:target="_blank"} of a chapter being noted with a different author. A similar approach could be used to indicate that the source material came from the MUDE book.
 - The TeachBooks Manual does the same thing, see [here](https://teachbooks.io/manual/credits.html){:target="_blank"}.
-- We are actively trying to come up with a best practice for this, for example, see the discussion in [this Pull Request](https://github.com/TeachBooks/manual/pull/31){:target="_blank"}.
+- We are actively trying to come up with a best practice for this, for example, see the discussion in [this Pull Request](https://github.com/TeachBooks/manual/pull/31){:target="_blank"} or [this one](https://github.com/TeachBooks/manual/pull/34){:target="_blank"}.
 
 ### MUDE Assignments
 
@@ -174,7 +174,7 @@ Until the ER becomes OER, the following note should be included in the file itse
 This is especially important if your course files are shared publicly (which we hope you do under CC BY eventually!). It is not required that students see the reference to MUDE if the files/assignments are not shared publicly. In addition to the note it is advised to include a record of modifications and some sort of link to the source material in the directory where you keep assignments, for example, in a Markdown file.
 
 The reference for assignments is:
-> MUDE (2024) Modelling, Uncertainty and Data for Engineers (MUDE) Educational Resources, Delft University of Technology. [Unpublished]. [mude.citg.tudelft.nl](https://mude.citg.tudelft.nl){:target="_blank"}.
+> MUDE (2024) Modelling, Uncertainty and Data for Engineers (MUDE) Educational Resources, Delft University of Technology. [mude.citg.tudelft.nl](https://mude.citg.tudelft.nl){:target="_blank"}.
 
 When the assignments are made fully open, they will probably be shared via a GitHub or GitLab repository along with a permissive license (ideally CC BY), and perhaps published via an OER publisher. This is expected to occur on an annual basis following the completion of an academic year.
 
@@ -190,7 +190,7 @@ A final note on Git: remember that when working with others, you should try to w
 
 ## GitHub Classroom
 
-Hopefully the experience of using this as a student was enough to see the advantage of this platform. I also showed the browser GUI a couple times. Since you all should have access to the GitHub Organization `todo`, all you need to be able to join the GitHub Classroom is to visit [this link](https://classroom.github.com/classrooms/189075451-iitm-mude-2024-workshop-classroom){:target="_blank"}. Many of your colleagues at the workshop were successfully invited as owners, so they can also give you (and anyone else) access.
+Hopefully the experience of using this as a student was enough to see the advantage of this platform. I also showed the browser GUI a couple times. Since you all should have access to the [IITM-MUDE GitHub Organization](https://github.com/iitm-MUDE){:target="_blank"}, all you need to be able to join the GitHub Classroom is to visit [this link](https://classroom.github.com/classrooms/189075451-iitm-mude-2024-workshop-classroom){:target="_blank"}. Many of your colleagues at the workshop were successfully invited as owners, so they can also give you (and anyone else) access.
 
 We only scratched the surface in our workshop: there is a huge potential to customize the use of GItHub Classroom to the needs of your courses, and the official documentation will give you a better overview than I can. My advice is experiment often and early, and of course, test this in low-risk situations in advance (e.g., test with each other, or share "practice" materials before graded assignments). Once you get the hang of it, it becomes very fast and easy to create and deploy assignments to students (assuming the files are ready).
 
@@ -204,7 +204,7 @@ Our initiative **TeachBooks** is young (March, 2024) and still defining itself. 
 - always open for collaboration! visit our [github organization](https://github.com/teachBooks/){:target="_blank"} or our website [teachbooks.io](https://teachbooks.io) to learn more
 
 Key resources to be aware of:
-- The [manual](https://teachbooks.io/manual){:target="_blank"}!!!
+- The [manual](https://teachbooks.io/manual){:target="_blank"}!!! In fact, we are already improving this to be more self-explanatory based on the IITM workshop, so thank you!
 - The [template repository](https://github.com/teachbooks/template){:target="_blank"} (we used this in the workshop; there are detailed instructions in the README)
 - The [deploy book workflow](https://github.com/TeachBooks/deploy-book-workflow){:target="_blank"} is what enables all branches to build automatically. It is included in the template books by default; take a look at the documentation (or visit the [manual page](https://teachbooks.io/manual/external/deploy-book-workflow/README.html){:target="_blank"} if you want to know more.
 - The [teachbooks Python package](https://github.com/teachbooks/teachbooks) adds some handy pre- and post-processing steps to the book, and will grow with time. For now, the command `teachbooks serve` is essential when you want to test interactive features locally (especially the interactive Python kernel!). Read more [here](https://teachbooks.io/manual/external/TeachBooks/README.html){:target="_blank"}. For the CLI enthusiasts, we are working on the package documentation page; contributions and ideas are also very much welcome for this via GitHub!
